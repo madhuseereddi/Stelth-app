@@ -1,4 +1,4 @@
-POST http://localhost:3000/login/
+POST http://localhost:3001/login/
 Content-Type: application/json
 
 {
@@ -8,12 +8,22 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/locations/
+POST http://localhost:3001/biz-login/
+Content-Type: application/json
+
+{
+  "name" : "Neha Singh",
+  "password" : "Neha@2024"
+}
 
 ###
 
-GET http://localhost:3000/featured-technicians/
+GET http://localhost:3001/locations/
 
 ###
 
-GET http://localhost:3000/appliances/
+GET http://localhost:3001/featured-technicians/
+
+###
+
+GET http://localhost:3001/appliances/

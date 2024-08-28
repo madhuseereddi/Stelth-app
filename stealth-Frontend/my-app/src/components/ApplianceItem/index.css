@@ -1,0 +1,16 @@
+.list-item{
+  height: 150px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: hidden;
+  color: gray;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

@@ -1,0 +1,64 @@
+/* src/components/VendorCard/index.css */
+.vendor-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    min-width: 500px;
+    min-height: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%; /* Adjust based on your layout */
+    max-width: 600px; /* Limit width to prevent excessive stretching */
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items to the start */
+  }
+  
+  .vendor-card::-webkit-scrollbar{
+    display: none;
+  }
+  .vendor-photo {
+    width: 60px; /* Fixed width */
+    height: 60px; /* Fixed height */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px; /* Space between image and content */
+  }
+  
+  .vendor-details {
+    flex: 1; /* Allow content to take up remaining space */
+  }
+  
+  .read-more-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .vendor-description {
+    transition: max-height 0.3s ease-out; /* Smooth transition */
+    max-height: 0; /* Initially collapsed */
+    overflow: hidden;
+    color: #555;
+  }
+  
+  .vendor-description.expanded {
+    max-height: 200px; /* Adjust this value based on the expected height of the expanded description */
+  }
+  
+  .vendor-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }

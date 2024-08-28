@@ -1,0 +1,289 @@
+.stealth-logo{
+    height: 60px;
+}
+.biz-btn{
+    width: 129px;
+    height: 43px;
+    top: 111px;
+    left: 893px;
+    gap: 0px;
+    opacity: 0px;
+    border: 0;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0px 1px 3px 0px #00000014;
+
+box-shadow: 0px 4px 6px 0px #32325D1C;
+
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 19.07px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+
+    
+
+}
+.user-btn{
+    box-shadow: 0px 1px 3px 0px #00000014;
+
+box-shadow: 0px 4px 6px 0px #32325D1C;
+background: #EA3C12;
+width: 102px;
+height: 43px;
+gap: 0px;
+opacity: 0px;
+border: 0;
+border-radius: 50px;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 19.07px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+color: white;
+
+}
+
+.navbar{
+    width: 1464px;
+height: 83px;
+top: 91px;
+gap: 0px;
+opacity: 0px;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.login-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.search-container {
+    position: relative; /* This ensures the suggestions list is positioned relative to the search input */
+  }
+  
+  .suggestions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    position: absolute; /* Makes the list float */
+    top: 100%; /* Positions the list right below the search input */
+    left: 0;
+    width: 100%; /* Ensures the list takes the same width as the input */
+    z-index: 1000; /* Higher z-index to make sure it appears above other content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for better visibility */
+    max-height: 200px; /* Adds a limit to the list's height */
+    overflow-y: auto; /* Adds scroll if the suggestions overflow */
+  }
+  
+  .suggestions-list li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .suggestions-list li:hover {
+    background-color: #eee;
+  }
+  .selection-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+  }
+  .home-para1{
+    width: 614px;
+height: 49px;
+top: 245px;
+left: 223px;
+gap: 0px;
+opacity: 0px;
+color: black;
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 600;
+line-height: 47.66px;
+text-align: left;
+
+  }
+
+.home-para2{
+    width: 600px;
+    height: 64px;
+    top: 305px;
+    left: 226px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 300;
+line-height: 34px;
+text-align: left;
+
+  }
+
+.select-item{
+    width: 80px;
+height: 32.76px;
+top: 397px;
+left: 226px;
+gap: 0px;
+opacity: 0px;
+border: 1px solid #172B4D;
+border-radius: 5px;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 19.07px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+padding-right: 10px;
+
+}
+.select-itemsss{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.areas-list{
+margin: 5px;
+
+background: #5E72E4;
+border-radius: 5px;
+
+}
+.para-areas{
+    width: 221px;
+gap: 0px;
+opacity: 0px;
+font-family: Open Sans;
+font-size: 11px;
+font-weight: 600;
+line-height: 14.38px;
+text-align: center;
+color: white;
+margin: 5px;
+
+
+
+
+}
+
+.search-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 317px;
+    border : 0.5px solid gray;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 15px;
+    gap: 4px;
+    
+}
+
+.search-input{
+
+font-family: Open Sans;
+font-size: 12px;
+color:gray;
+border: 0;
+outline: 0;
+height: 30px;
+width: 300px;
+
+
+
+}
+.zoom-in{
+    color: gray;
+}
+
+.searching{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.search-btn{
+    color: white;
+    height:40px ;
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: #EA3C12;
+    font-family: Open Sans; 
+    border-radius: 5px;
+
+}
+.selection-page{
+    margin-top: 20px;
+}
+
+.width-list{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    
+    margin-top: 50px;
+}
+.itemsss{
+    width: 1125px;
+    margin: auto;
+}
+
+.details{
+    margin: auto;
+}
+.detials-div{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 20px;
+}
+.vendors-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    margin-bottom: 40px;
+   }
+
+
+   .vendors-container::-webkit-scrollbar{
+    display: none;
+   }
+    .featured-vendors{
+        margin: auto;
+                width:1125px;
+    }
